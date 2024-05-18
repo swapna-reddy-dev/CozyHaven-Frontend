@@ -9,8 +9,7 @@ import {
   Tooltip,
   IconButton,
   Menu,
-  MenuItem,
-  Paper
+  MenuItem
 } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";

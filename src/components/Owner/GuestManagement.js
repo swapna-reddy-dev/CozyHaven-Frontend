@@ -113,7 +113,7 @@ export default function GuestManagement() {
 
   useEffect(()=>{
     dispatch(startStatusChart(id))
-
+    // eslint-disable-next-line
   },[])
   useEffect(()=>{
     if(statusChart && !isEmpty(statusChart)){
@@ -192,6 +192,7 @@ export default function GuestManagement() {
 
       }
     }
+    // eslint-disable-next-line
   },[statusChart, statChart])
 
 

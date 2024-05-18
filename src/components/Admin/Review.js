@@ -2,7 +2,6 @@ import {
     Grid,
     Chip,
     Typography,
-    Rating,
     Paper,
     Card,
     CardMedia,

@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Dashboard() {
   const navigate = useNavigate()
-  const { admin , adminsDispatch} = useContext(AdminContext)
+  const { admin} = useContext(AdminContext)
   console.log(admin.pendingBuildings,'pending')
   
 
@@ -113,6 +113,7 @@ export default function Dashboard() {
       buildingsChart.destroy();
     }
   };
+  // eslint-disable-next-line
 }, [usersChart, buildingsChart,admin.users, admin.buildings]);
 
 
